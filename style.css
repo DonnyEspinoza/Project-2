@@ -1,0 +1,116 @@
+/*Imported Fonts*/
+@import url(https://db.onlinewebfonts.com/c/e7add10b4df03aa3a185e193221d8900?family=Kairos+Sans+W06+Cond+Medium);
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Oswald:wght@200..700&display=swap');
+
+/*Overall page*/
+html {
+  height: 100%;
+  width: 100%;
+  color: #ffffff;
+}
+
+/*I  plan to add an Image behind my page introduction once I figure out how*/
+h1{
+  text-align: center;
+  padding: 150px;
+  font-size: 75px;
+  color: #ffffff;
+  
+  background-color: #f58700;
+  border-radius: 10px;
+  
+  font-family: "Kairos Sans W06 Cond Medium", sans-serif;
+  font-style: normal;
+}
+
+
+h2{
+  text-align: center;
+  font-size: 35px;
+  color: #ffffff;
+  
+  font-family: "Kairos Sans W06 Cond Medium", sans-serif;
+  font-style: normal;
+}
+
+section{
+  background-color: #13262F;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+body{
+  background-color: #FDFDFF;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  text-align: center;
+}
+
+/*Nav Bar*/
+nav ul{
+  list-style-type: none;
+  padding: 20px; 
+  width: 85%;
+  background-color: #0d0d0d;
+  border-radius: 75px;
+  display: inline-block;
+  font-size: 20px; 
+}
+
+ul li{
+  display: inline;
+  padding: 10px
+}
+
+ul li a:hover {
+  background-color: #636363;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+ul li a.active {
+  background-color: #f58700;
+  color: #000000;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*Image*/
+img{
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #000000;
+}
+
+/*Columns*/
+#columns{
+  display: grid;  
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+#leftColumn{
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#rightColumn{
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/*Contact Info*/
+footer{
+  background-color: #0d0d0d;
+  padding: 20px;
+  margin:20px;
+  border-radius: 75px;
+}
